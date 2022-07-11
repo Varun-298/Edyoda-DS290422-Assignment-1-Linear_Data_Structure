@@ -1,0 +1,13 @@
+def Pairs(array, n, sum):
+    for i in range(0, n ):
+        for j in range(i + 1, n ):
+            if (arr[i] + arr[j] == sum):
+                print("(", arr[i],
+                      ", ", arr[j],
+                      ")", sep = "")
+
+
+array = [1, 5, 7, -1, 5]         
+n = len(array)
+sum = 6
+Pairs(arr, n, sum)
